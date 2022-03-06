@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config operator="ALL">
+        <boolean name="tty_supported_bool" value="false" />
+    </carrier_config>
+    <carrier_config gid1="BAE0000000000000" mcc="204" mnc="04">
+        <string name="default_vm_number_string">31654501233</string>
+    </carrier_config>
+    <carrier_config mcc="204" mnc="04">
+        <boolean name="display_hd_audio_property_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="3">
+        <string name="default_vm_number_string">3311</string>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="allowEnablingWapPushSI" value="true" />
+        <boolean name="enableWapPushSI" value="true" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <int name="wfc_spn_format_idx_int" value="2" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="6">
+        <string name="default_vm_number_string">+420603123311</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="7">
+        <string name="default_vm_number_string">+48602950000</string>
+        <int name="wfc_spn_format_idx_int" value="4" />
+        <boolean name="enableWapPushSI" value="true" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="8">
+        <string name="default_vm_number_string">+36309888444</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="9">
+        <string name="default_vm_number_string">+38598151100</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="11">
+        <string name="default_vm_number_string">+421903333999</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="18">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="default_vm_number_string">121</string>
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <boolean name="groupChatDefaultsToMMS" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1961">
+        <int name="smsToMmsTextThreshold" value="10" />
+    </carrier_config>
+    <carrier_config cid="19">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="default_vm_number_string">171</string>
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="20">
+        <boolean name="enabledMMS" value="false" />
+        <string name="wfc_spn_customize">Vodafone NL Wifi</string>
+        <string name="carrier_name_string">vodafone NL</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="21">
+        <string name="default_vm_number_string">+6421700700</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="22">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <int name="volte_replacement_rat_int" value="3" />
+        <string name="default_vm_number_string">123</string>
+        <int name="smsToMmsTextThreshold" value="5" />
+        <int name="maxMessageSize" value="614400" />
+        <boolean name="enableMMSDeliveryReports" value="false" />
+        <boolean name="enableMMSReadReports" value="false" />
+        <boolean name="groupChatDefaultsToMMS" value="true" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="23">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="false" />
+        <int name="maxMessageSize" value="307200" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <string name="default_vm_number_string">+40722033334</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <string name="wfc_spn_customize">Vodafone WiFi calling</string>
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="24">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <string name="default_vm_number_string">132</string>
+        <string name="wfc_spn_customize">WiFi call</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="25">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <int name="wfc_spn_format_idx_int" value="-1" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="26">
+        <string name="default_vm_number_string">22177</string>
+        <boolean name="enableMMSDeliveryReports" value="false" />
+        <boolean name="enableMMSReadReports" value="false" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="27">
+        <int name="smsToMmsTextThreshold" value="10" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="allowChangingMmsRoamingAutoRetrieve" value="true" />
+        <boolean name="call_barring_visibility_bool" value="false" />
+        <string name="default_vm_number_string">123</string>
+    </carrier_config>
+    <carrier_config cid="28">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <string name="wfc_spn_customize">Vodafone WiFi Call</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="29">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <string-array name="feature_access_codes_string_array" num="15">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+            <item value="112" />
+            <item value="131" />
+            <item value="155" />
+            <item value="21" />
+            <item value="22" />
+            <item value="32" />
+            <item value="51" />
+            <item value="114" />
+            <item value="157" />
+            <item value="23" />
+            <item value="46" />
+            <item value="121" />
+        </string-array>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="32">
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <string name="vvm_destination_number_string">21101</string>
+        <int name="vvm_port_number_int" value="20481" />
+        <boolean name="vvm_prefetch_bool" value="true" />
+        <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <boolean name="vvm_ssl_enabled_bool" value="false" />
+        <boolean name="vvm_legacy_mode_enabled_bool" value="false" />
+        <string-array name="vvm_disabled_capabilities_string_array" num="1">
+            <item value="STARTTLS" />
+        </string-array>
+        <string name="vvm_client_prefix_string">//VVM</string>
+        <string name="default_vm_number_string">888</string>
+    </carrier_config>
+    <carrier_config cid="33">
+        <string name="default_vm_number_string">41919</string>
+    </carrier_config>
+    <carrier_config cid="34">
+        <string name="default_vm_number_string">22123</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="false" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="smsEncodingChangeable" value="true" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="678">
+        <boolean name="smsEncodingChangeable" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <string name="default_vm_number_string">242</string>
+        <int name="maxImageHeight" value="1920" />
+        <int name="maxImageWidth" value="2560" />
+        <int name="maxMessageSize" value="1048576" />
+    </carrier_config>
+    <carrier_config cid="679">
+        <string name="default_vm_number_string">242</string>
+    </carrier_config>
+    <carrier_config cid="747">
+        <string name="default_vm_number_string">+306971000123</string>
+        <int name="maxMessageSize" value="614400" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="792">
+        <string name="default_vm_number_string">171</string>
+    </carrier_config>
+    <carrier_config cid="793">
+        <string name="default_vm_number_string">171</string>
+    </carrier_config>
+    <carrier_config cid="897">
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <string name="vvm_destination_number_string">64085</string>
+        <int name="vvm_port_number_int" value="0" />
+        <boolean name="vvm_prefetch_bool" value="true" />
+        <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <boolean name="vvm_ssl_enabled_bool" value="false" />
+        <boolean name="vvm_legacy_mode_enabled_bool" value="false" />
+        <string-array name="vvm_disabled_capabilities_string_array" num="1">
+            <item value="STARTTLS" />
+        </string-array>
+        <string name="vvm_client_prefix_string">//VVM</string>
+    </carrier_config>
+    <carrier_config cid="968">
+        <string name="default_vm_number_string">+6483083210</string>
+    </carrier_config>
+    <carrier_config cid="969">
+        <string name="default_vm_number_string">+64222022002</string>
+        <int name="wfc_spn_format_idx_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="969" imsi="^5302410.*$">
+        <string name="default_vm_number_string">+64284808808</string>
+    </carrier_config>
+    <carrier_config cid="1008">
+        <int name="smsToMmsTextThreshold" value="10" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="allowChangingMmsRoamingAutoRetrieve" value="true" />
+    </carrier_config>
+    <carrier_config cid="1010">
+        <string name="default_vm_number_string">+40766177177</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1011">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1365">
+        <string name="default_vm_number_string">+32475151969</string>
+        <int name="httpSocketTimeout" value="300000" />
+    </carrier_config>
+    <carrier_config cid="1366">
+        <string name="default_vm_number_string">5555</string>
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <string name="vvm_destination_number_string">8082</string>
+        <int name="vvm_port_number_int" value="0" />
+        <boolean name="vvm_prefetch_bool" value="true" />
+        <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <boolean name="vvm_ssl_enabled_bool" value="false" />
+        <boolean name="vvm_legacy_mode_enabled_bool" value="false" />
+        <string-array name="vvm_disabled_capabilities_string_array" num="1">
+            <item value="STARTTLS" />
+        </string-array>
+        <string name="vvm_client_prefix_string">//VVM</string>
+    </carrier_config>
+    <carrier_config cid="1435">
+        <boolean name="caller_id_over_ut_warning_bool" value="false" />
+        <boolean name="config_disable_clir_over_ut" value="true" />
+    </carrier_config>
+    <carrier_config cid="1436">
+        <boolean name="enableMultipartSMS" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+    </carrier_config>
+    <carrier_config cid="1452">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <string name="default_vm_number_string">+420608989898</string>
+        <string name="wfc_spn_customize">Vodafone WiFi volání</string>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1453">
+        <int name="wfc_spn_format_idx_int" value="3" />
+    </carrier_config>
+    <carrier_config cid="1454">
+        <int name="wfc_spn_format_idx_int" value="3" />
+    </carrier_config>
+    <carrier_config cid="1487">
+        <string name="default_vm_number_string">+33660660001</string>
+        <int name="vvm_port_number_int" value="5499" />
+        <string name="vvm_destination_number_string">22344</string>
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <string name="carrier_vvm_package_name_string">fr.bouyguestelecom.vvmandroid</string>
+    </carrier_config>
+    <carrier_config cid="1492">
+        <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <string name="vvm_destination_number_string">901</string>
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">901</string>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="false" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="smsEncodingChangeable" value="true" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <int name="wfc_spn_format_idx_int" value="11" />
+        <string name="wfc_spn_customize">O2 WiFiCall</string>
+        <int name="smsToMmsTextThreshold" value="-1" />
+    </carrier_config>
+    <carrier_config cid="1505">
+        <string name="default_vm_number_string">+447782333123</string>
+    </carrier_config>
+    <carrier_config cid="1535">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="10" />
+        <string name="default_vm_number_string">170</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1581">
+        <boolean name="enabledMMS" value="false" />
+    </carrier_config>
+    <carrier_config cid="1643">
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="allowEnablingWapPushSI" value="false" />
+        <boolean name="enableWapPushSI" value="false" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="enabledMMS" value="false" />
+        <string name="default_vm_number_string">+31640192939</string>
+        <boolean name="editable_voicemail_number_bool" value="false" />
+        <int name="wfc_spn_format_idx_int" value="4" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="1644">
+        <string name="default_vm_number_string">1233</string>
+        <string name="default_vm_number_roaming_string">+31612001233</string>
+    </carrier_config>
+    <carrier_config cid="1658">
+        <string name="default_vm_number_string">+48601222222</string>
+    </carrier_config>
+    <carrier_config cid="1659">
+        <string name="default_vm_number_string">501501501</string>
+        <string name="wfc_spn_customize">Orange WiFi Calling</string>
+        <int name="wfc_spn_format_idx_int" value="11" />
+        <int name="httpSocketTimeout" value="120000" />
+        <int name="maxMessageSize" value="614400" />
+    </carrier_config>
+    <carrier_config cid="1662">
+        <string name="default_vm_number_string">+48790200200</string>
+        <int name="smsToMmsTextThreshold" value="6" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1670">
+        <int name="smsToMmsTextThreshold" value="10" />
+        <int name="maxMessageSize" value="307200" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="allowChangingMmsRoamingAutoRetrieve" value="true" />
+        <string name="default_vm_number_string">+351962000000</string>
+    </carrier_config>
+    <carrier_config cid="1894">
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="mms" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <int-array name="only_single_dc_allowed_int_array" num="5">
+            <item value="3" />
+            <item value="9" />
+            <item value="10" />
+            <item value="11" />
+            <item value="15" />
+        </int-array>
+        <int name="parameters_used_for_lte_signal_bar_int" value="5" />
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-127" />
+            <item value="-123" />
+            <item value="-121" />
+            <item value="-117" />
+        </int-array>
+        <int-array name="lte_rssnr_thresholds_int_array" num="4">
+            <item value="-19" />
+            <item value="-3" />
+            <item value="3" />
+            <item value="1" />
+        </int-array>
+        <string-array name="carrier_certificate_string_array" num="1">
+            <item value="8CD14DE82459630273B8D4C4F0C7C042FA0EF419C2B76A0AAD3D7A0646B015B9" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1903">
+        <string name="default_vm_number_string">171</string>
+    </carrier_config>
+    <carrier_config cid="1914">
+        <string name="default_vm_number_string">*86</string>
+    </carrier_config>
+    <carrier_config cid="1915">
+        <string name="default_vm_number_string">*86</string>
+        <boolean name="voicemail_notification_persistent_bool" value="true" />
+        <int name="maxMessageSize" value="614400" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+    </carrier_config>
+    <carrier_config cid="2018">
+        <string-array name="ims_reasoninfo_mapping_string_array" num="1">
+            <item value="341|user location mapping does not exist|364" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="2092">
+        <boolean name="allowEnablingWapPushSI" value="true" />
+        <boolean name="enableWapPushSI" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <string name="default_vm_number_string">3311</string>
+        <int name="wfc_spn_format_idx_int" value="2" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2096">
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">+48602950000</string>
+        <int name="wfc_spn_format_idx_int" value="4" />
+        <boolean name="enableWapPushSI" value="true" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2101">
+        <int name="wfc_spn_format_idx_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="2102">
+        <int name="wfc_spn_format_idx_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="2105">
+        <string name="default_vm_number_string">+64204864236</string>
+    </carrier_config>
+    <carrier_config cid="2109">
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-126" />
+            <item value="-113" />
+            <item value="-105" />
+            <item value="-97" />
+        </int-array>
+        <string name="default_vm_number_string">1417</string>
+    </carrier_config>
+    <carrier_config cid="2147">
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+    </carrier_config>
+    <carrier_config cid="2364">
+        <string name="default_vm_number_string">+6421700700</string>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2365">
+        <string name="default_vm_number_string">+38598151100</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2369">
+        <string name="default_vm_number_string">242</string>
+    </carrier_config>
+    <carrier_config cid="2385">
+        <string name="default_vm_number_string">+421903333999</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2394">
+        <string name="default_vm_number_string">+420603123311</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2386">
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">+31640192939</string>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="enableWapPushSI" value="false" />
+        <int name="wfc_spn_format_idx_int" value="4" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2387">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="default_vm_number_string">171</string>
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2391">
+        <string name="wfc_spn_customize">Vodafone WiFi calling</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2397">
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2398">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <string name="default_vm_number_string">+420608989898</string>
+        <string name="wfc_spn_customize">Vodafone WiFi volání</string>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2399">
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="default_vm_number_string">121</string>
+        <string name="wfc_spn_customize">Vodafone WiFi Calling</string>
+        <boolean name="groupChatDefaultsToMMS" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2401">
+        <string name="default_vm_number_string">+36309888444</string>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2429">
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-126" />
+            <item value="-113" />
+            <item value="-105" />
+            <item value="-97" />
+        </int-array>
+        <string name="default_vm_number_string">1417</string>
+    </carrier_config>
+    <carrier_config cid="2468">
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">+31640192939</string>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <int name="wfc_spn_format_idx_int" value="4" />
+        <boolean name="enableWapPushSI" value="false" />
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="10007">
+        <string name="default_vm_number_string">1417</string>
+    </carrier_config>
+    <carrier_config cid="1913">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config cid="1345">
+        <int name="maxImageHeight" value="3072" />
+        <int name="maxImageWidth" value="3072" />
+    </carrier_config>
+    <carrier_config cid="5">
+        <string name="default_vm_number_string">+31624001233</string>
+        <boolean name="enabledMMS" value="false" />
+        <boolean name="enableWapPushSI" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config>
+        <boolean name="call_barring_visibility_bool" value="false" />
+        <string-array name="mccmnc" num="3">
+            <item value="20808" />
+            <item value="20811" />
+            <item value="20813" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="214" mnc="06" spn="Lowi">
+        <string name="default_vm_number_string">2211</string>
+    </carrier_config>
+    <carrier_config mcc="214" mnc="22">
+        <string name="default_vm_number_string">1210</string>
+    </carrier_config>
+    <carrier_config operator="Ireland-VDF">
+        <string name="default_vm_number_string">171</string>
+        <string-array name="mccmnc" num="1">
+            <item value="27201" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Ireland-Three">
+        <string name="default_vm_number_string">171</string>
+        <string-array name="mccmnc" num="2">
+            <item value="27202" />
+            <item value="27205" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SWISSCOM">
+        <string name="vvm_destination_number_string">30047</string>
+        <int name="vvm_port_number_int" value="0" />
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <string name="carrier_vvm_package_name_string" />
+        <boolean name="vvm_prefetch_bool" value="true" />
+        <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="22801" />
+            <item value="29501" />
+        </string-array>
+    </carrier_config>
+    <carrier_config imsi="2140426" operator="Lycamobile">
+        <string name="default_vm_number_string">121</string>
+        <string-array name="mccmnc" num="1">
+            <item value="21404" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="228" mnc="53">
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="mms" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SKY">
+        <string name="default_vm_number_string">759</string>
+        <string name="default_vm_number_roaming_string">07488222000</string>
+        <string-array name="mccmnc" num="2">
+            <item value="23457" />
+            <item value="24007" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="1930">
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+    </carrier_config>
+</carrier_config_list>
